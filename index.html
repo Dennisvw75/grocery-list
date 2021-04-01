@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cbc45b9adf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/dist/css/main.min.css" />
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grocery">
+        <h1 class="grocery__title">Grocery List</h1>
+        <form class="grocery__form">
+          <label for="add-grocery" class="grocery__label">add grocery</label>
+          <input
+            type="text"
+            class="grocery__input"
+            id="add-grocery"
+            name="add-grocery"
+          />
+          <button class="grocery__btn grocery__btn--add">add</button>
+        </form>
+        <ul class="grocery__list">
+          <li class="grocery__list-item">
+            eggs <button><i class="far fa-edit edit"></i></button>
+            <button><i class="fas fa-trash trash"></i></button>
+          </li>
+          <li class="grocery__list-item">
+            donuts <button><i class="far fa-edit edit"></i></button>
+            <button><i class="fas fa-trash trash"></i></button>
+          </li>
+          <li class="grocery__list-item">
+            bananas <button><i class="far fa-edit edit"></i></button>
+            <button><i class="fas fa-trash trash"></i></button>
+          </li>
+          <li class="grocery__list-item">
+            apples <button><i class="far fa-edit edit"></i></button>
+            <button><i class="fas fa-trash trash"></i></button>
+          </li>
+          <li class="grocery__list-item">
+            mayonaise <button><i class="far fa-edit edit"></i></button>
+            <button><i class="fas fa-trash trash"></i></button>
+          </li>
+          <li class="grocery__list-item">
+            ketchup <button><i class="far fa-edit edit"></i></button>
+            <button><i class="fas fa-trash trash"></i></button>
+          </li>
+        </ul>
+        <button class="grocery__btn grocery__clear--all">clear all</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
